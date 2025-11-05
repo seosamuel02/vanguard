@@ -1,0 +1,138 @@
+# =============================================================================
+# VANGUARD - Git Ignore Configuration
+# =============================================================================
+
+# User-requested exclusions (docs, AI context, MCP config)
+docs/
+.claude/
+CLAUDE.md
+.mcp.json
+README.ko.md
+edu.md
+*.pdf
+
+# Python
+# =============================================================================
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+# =============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Project-specific
+# =============================================================================
+# Scan results and output
+output/
+scans/
+reports/
+screenshots/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS-specific
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Security
+# =============================================================================
+# Never commit secrets
+secrets/
+*.key
+*.pem
+credentials.json
+config/secrets.yaml
+
+# Playwright
+# =============================================================================
+playwright/.cache/
+test-results/
+playwright-report/

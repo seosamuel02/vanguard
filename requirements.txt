@@ -1,0 +1,60 @@
+# VANGUARD - Python Dependencies
+# =============================================================================
+# Last Updated: 2025-01-05
+# Python Version: 3.11+
+
+# Core Framework
+# =============================================================================
+# Browser automation (Playwright chosen over Puppeteer for 5% performance gain)
+playwright==1.40.0
+
+# Async web crawling framework
+crawlee==0.6.0
+
+# Async HTTP client
+aiohttp==3.9.1
+aiohttp-ratelimit==0.8.0
+
+# Standard HTTP client (for non-async operations)
+requests==2.31.0
+
+# Development & Testing
+# =============================================================================
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code quality
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
+
+# Logging & Monitoring
+# =============================================================================
+structlog==23.2.0
+python-json-logger==2.0.7
+
+# Utilities
+# =============================================================================
+# URL parsing
+urllib3==2.1.0
+
+# Data validation
+pydantic==2.5.2
+
+# YAML configuration
+PyYAML==6.0.1
+
+# CLI
+click==8.1.7
+rich==13.7.0  # Beautiful terminal output
+
+# Database (SQLite for state management)
+# =============================================================================
+aiosqlite==0.19.0
+
+# External Tool Integration
+# =============================================================================
+# Note: Dalfox, XSStrike, ParamSpider are standalone tools
+# They will be called via subprocess, not Python packages
