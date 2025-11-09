@@ -16,7 +16,7 @@ setup(
         "playwright>=1.40.0",
         "crawlee>=0.6.0",
         "aiohttp>=3.9.1",
-        "aiohttp-ratelimit>=0.8.0",
+        # "aiohttp-ratelimit>=0.8.0",  # Not available, using custom rate limiter
         "structlog>=23.2.0",
         "click>=8.1.7",
         "rich>=13.7.0",

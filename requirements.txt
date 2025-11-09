@@ -13,7 +13,7 @@ crawlee==0.6.0
 
 # Async HTTP client
 aiohttp==3.9.1
-aiohttp-ratelimit==0.8.0
+# aiohttp-ratelimit==0.8.0  # Not available, using custom rate limiter
 
 # Standard HTTP client (for non-async operations)
 requests==2.31.0
